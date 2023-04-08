@@ -1,0 +1,19 @@
+h4 {
+    text-align: center;
+    background-color: transparent;
+    /* 背景色透明，默认也是透明的 */
+}
+
+.mydiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    background-image: url(/html/static/images/mountain.jpg),
+        url(/html/static/images/icon.png);
+    background-size: 50px 50px, 100px 100px;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    /* background-position: 50px -30px; */
+    /* 向右偏移50px,向上偏移30px */
+    /* background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)); */
+}

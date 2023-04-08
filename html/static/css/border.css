@@ -1,0 +1,28 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    /* opacity: 0.5; */
+    /* 让边框宽度变为2px */
+    border-width: 2px;
+}
+
+#b1 {
+    border-style: dotted solid inset;
+}
+
+#b2 {
+    border-style: dotted solid;
+}
+
+#b3 {
+    border-style: dotted solid solid dotted;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    /* opacity: 0.5; */
+    border-radius: 50px;
+}

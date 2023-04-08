@@ -1,0 +1,36 @@
+.div-outer {
+    width: 300px;
+    height: 400px;
+    background-color: lightblue;
+    padding: 20px 0 0 30px;
+    margin: 100px;
+}
+
+.div-inner-1 {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.div-inner-2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -100px;
+}
+
+.div-inner-3 {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: white;
+    margin: 10px;
+}
